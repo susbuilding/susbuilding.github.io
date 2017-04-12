@@ -28,6 +28,12 @@ h1 {
   width: 50px;
 }
 
+.medium-icon {
+  margin-top: 5px;
+  height: 100px;
+  width: 100px;
+}
+
 body {
  font-family: 'Roboto Slab', serif;
 }
@@ -57,12 +63,17 @@ header {
 
 p {
   font-size: 20px;
-  margin-left: 40px;
-  margin-left: 40px;
+  margin-left: 50px;
+  margin-left: 50px;
 }
 
-.featurette-heading{
-  margin-left: 30px;
+.featurette-heading {
+  margin-left: 50px;
+}
+
+.project-image {
+  width: 75%;
+  height: 75%
 }
 
 /*article {
@@ -77,8 +88,8 @@ p {
 
 .divider {
     display: block;
-    margin: 30px 0;
-    width: 100px;
+    margin: 50px 0;
+    width: 150px;
     height: 2px;
     background-color: #00b7c7;
 }
