@@ -7,29 +7,29 @@ li {
 
 ul {
   text-align: center;
-  font-family:'Heebo', sans-serif;
+  font-family:'Roboto Slab', serif;
 }
 
 h1 {
   font-size: 70px;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Roboto Slab', serif;
   color: white;
 }
 
 .headshot {
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 25%;
   border-radius: 50%;
 }
 
 .icon {
   margin-top: 5px;
-  height: 25px;
-  width: 25px;
+  height: 50px;
+  width: 50px;
 }
 
 body {
- font-family: 'Slabo 27px', sans-serif;
+ font-family: 'Roboto Slab', serif;
 }
 
 /*html {
@@ -57,7 +57,8 @@ header {
 
 p {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-left: 40px;
 }
 
 .featurette-heading{
@@ -82,6 +83,6 @@ p {
     background-color: #00b7c7;
 }
 
-.row1 {
-  background-color: mintcream;
+.text {
+  color: white;
 }
