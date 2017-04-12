@@ -38,7 +38,7 @@ body {
 }*/
 
 html {
-  background: url("https://cdn.pixabay.com/photo/2013/11/09/20/22/clouds-208000_1280.jpg") no-repeat center center fixed;
+  background: url('./public/clouds.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
