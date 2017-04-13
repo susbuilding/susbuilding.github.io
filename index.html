@@ -76,8 +76,8 @@
   <div
     class="row featurette"
     id="third"
-    data-center-top="opacity:0; left:-200%;"
-    data-top-top="opacity:1; left:0;">
+    data-center-top="opacity:0;"
+    data-top-top="opacity:1;">
       <div class="col-md-7 text">
         <h2 class="featurette-heading">Sandcastle</h2>
         <p class="lead">An in-browser playground where developers can write and visualize an entire application, as well as interact with their database and test out their routes.</p>
@@ -97,8 +97,8 @@
   <div
   class="row featurette"
   id="third"
-  data-center-top="opacity:0; left:-200%;"
-  data-top-top="opacity:1; left:0;">
+  data-center-top="opacity:0;"
+  data-top-top="opacity:1;">
     <div class="col-md-7 text">
       <h2 class="featurette-heading">Steps</h2>
       <p class="lead">A step by step game designed for children to learn how to code.</p>
@@ -117,8 +117,8 @@
   <div
   class="row featurette"
   id="third"
-  data-center-top="opacity:0; left:-200%;"
-  data-top-top="opacity:1; left:0;">
+  data-center-top="opacity:0;"
+  data-top-top="opacity:1;">
     <div class="col-md-7 text">
       <h2 class="featurette-heading">Tech Talk: Natural Language Processing with node.js</h2>
       <p class="lead">A presentation on using the npm module Natural for topics like inflectors, classifications with machine learning, and term frequency.</p>
@@ -153,6 +153,9 @@
   <script src="js/skrollr.min.js"></script>
   <script>
     var s = skrollr.init();
+    if (s.isMobile()) {
+        s.destroy();
+    }
   </script>
 </body>
 
