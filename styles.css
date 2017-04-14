@@ -13,9 +13,12 @@ ul {
 h1 {
   font-size: 70px;
   font-family: 'Roboto Slab', serif;
-  color: white;
+  color: #00b7c7;
 }
 
+h2 {
+  color: #00b7c7;
+}
 .headshot {
   height: 25%;
   width: 25%;
