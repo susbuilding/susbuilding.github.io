@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="menu-icon">
+...
+<!--need to fix this to be a real menu icon, not a div-->
+</div>
+<script>
+  $(".menu-icon").click(function() {
+    console.log('clicked')
+    // this is working!! slides down to .row1. need better naming
+    $('html,body').animate({
+        scrollTop: $(".row1").offset().top},
+        'slow');
+});
+</script>
 <title> Susanna Huang </title>
 <link href="https://fonts.googleapis.com/css?family=Heebo:100|League+Script|Roboto+Condensed:300|Open+Sans|Roboto+Slab|Roboto:300,400|Pacifico|Sacramento" rel="stylesheet">
 <link rel="stylesheet" href="./styles.css">
