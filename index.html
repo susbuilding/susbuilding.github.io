@@ -3,23 +3,43 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <div>
-  <span class="menu-icon">ABOUT / </span>
-  <span>TECH</span>
-<!--need to fix this to be a real menu icon, not a div-->
+  <span class="menu menu-about">ABOUT </span>
+  <span class="menu">/</span>
+  <span class="menu menu-tech">TECH </span>
+  <span class="menu">/</span>
+  <span class="menu menu-projects">PROJECTS </span>
+  <span class="menu">/</span>
+  <span class="menu menu-contact">CONTACT </span>
+  <!--need to fix this to be a real menu icon, not a div-->
 </div>
 <script>
-  $(".menu-icon").click(function() {
+  $(".menu-about").click(function() {
     console.log('clicked')
-    // this is working!! slides down to .row1. need better naming
     $('html,body').animate({
-        scrollTop: $(".row1").offset().top},
+        scrollTop: $(".about").offset().top},
         'slow');
-});
+  });
+  $(".menu-tech").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".tech").offset().top},
+        'slow');
+  });
+  $(".menu-projects").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".projects").offset().top},
+        'slow');
+  });
+  $(".menu-contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact").offset().top},
+        'slow');
+  });
 </script>
+
 <title> Susanna Huang </title>
 <link href="https://fonts.googleapis.com/css?family=Heebo:100|League+Script|Roboto+Condensed:300|Open+Sans|Roboto+Slab|Roboto:300,400|Pacifico|Sacramento" rel="stylesheet">
-<link rel="stylesheet" href="./styles.css">
 <link rel="icon" href="./public/sh-logo-blue.png" />
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -47,7 +67,7 @@
   </header>
 
   <div
-    class="row featurette row1"
+    class="row featurette row1 about"
     id="third"
     data-center-top="opacity:0;"
     data-top-top="opacity:1;">
@@ -70,7 +90,7 @@
   </span>
 
   <div
-    class="row featurette row1"
+    class="row featurette row1 tech"
     id="third"
     data-center-top="opacity:0;"
     data-top-top="opacity:1;">
@@ -103,7 +123,7 @@
   </span>
 
   <div
-    class="row featurette row1"
+    class="row featurette row1 projects"
     id="third"
     data-center-top="opacity:0;"
     data-top-top="opacity:1;">
@@ -176,7 +196,7 @@
   </span>
 
   <div
-    class="row featurette"
+    class="row featurette contact"
     id="third"
     data-center-top="opacity:0;"
     data-top-top="opacity:1;">

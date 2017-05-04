@@ -115,7 +115,11 @@ p {
   color: white;
 }
 
-.menu-icon {
+.menu {
   color: white;
   text-align: right;
+}
+
+.menu:hover {
+  color: #00b7c7;
 }
