@@ -114,3 +114,8 @@ p {
 .text {
   color: white;
 }
+
+.menu-icon {
+  color: white;
+  text-align: right;
+}
