@@ -24,6 +24,15 @@ h2 {
   color: #00b7c7;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
+  margin: 0px;
+}
+
+.caption {
+  text-align: center;
+  position: center;
+  top: 50%;
+  bottom: 50%;
+  margin:0 auto;
 }
 
 .headshot {
@@ -53,6 +62,7 @@ h2 {
 
 body {
  font-family: 'Roboto Slab', serif;
+ margin: 0px;
 }
 
 /*html {
@@ -68,14 +78,19 @@ body {
   background-size: cover;
 }*/
 
-.ocean {
-   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg') no-repeat center center fixed;
-   background-size: cover;
-}
-
 .slide-1 {
   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('http://www.homecarepulse.com/wp-content/uploads/2016/01/business-woman-typing-main.jpg');
 	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.slide-2{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_1280.jpg');
+  background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -107,16 +122,6 @@ p {
   width: 75%;
   height: 75%
 }
-
-/*article {
-  margin: 40px 0 0 0;
-  background: white;
-  border-width: 1px;
-  border-radius: 12px;
-  position: center;
-  padding: 20px;
-  opacity: 0.9;
-}*/
 
 .divider {
     display: block;
