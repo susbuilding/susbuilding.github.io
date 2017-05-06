@@ -100,6 +100,15 @@ body {
 	width: 100%;
 }
 
+.slide-3 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2016/11/29/05/34/new-york-1867569_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 /*header {
   text-align: center;
   color:#343232  ;
@@ -112,8 +121,8 @@ p {
 }
 
 .featurette-heading {
-  /*margin-left: 50px;*/
   margin: 0 0 0 50px;
+  padding-top: 15px;
 }
 
 .project-image {
