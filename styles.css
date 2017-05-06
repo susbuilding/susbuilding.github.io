@@ -60,17 +60,32 @@ body {
   background-repeat: no-repeat;
 }*/
 
-html {
+/*html {
   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+.ocean {
+   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+.slide-1 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('http://www.homecarepulse.com/wp-content/uploads/2016/01/business-woman-typing-main.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 
 div {
   position: relative;
-  border-radius: 12px;
+  /*border-radius: 12px;*/
 }
 
 header {
