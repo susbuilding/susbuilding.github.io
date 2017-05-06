@@ -2,12 +2,13 @@ li {
   display: inline;
   text-align: center;
   color: #5B5857;
-  padding: 0 15px 15px 0px;
+  padding: 0 15px 0 0px;
 }
 
 ul {
   text-align: center;
   font-family:'Roboto Slab', serif;
+  margin: 10px 0 0 0;
 }
 
 .links {
@@ -18,18 +19,29 @@ h1 {
   font-size: 70px;
   font-family: 'Roboto Slab', serif;
   color: white;
+  margin: 0px;
 }
 
 h2 {
   color: #00b7c7;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
+  margin: 0px;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 
 .headshot {
   height: 25%;
   width: 25%;
   border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .headshot-medium {
@@ -46,62 +58,109 @@ h2 {
 }
 
 .medium-icon {
-  margin-top: 5px;
-  height: 100px;
-  width: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 200px;
+  width: 200px;
+  position: relative;
 }
 
 body {
  font-family: 'Roboto Slab', serif;
+ margin: 0px;
 }
 
 /*html {
-  background: url("https://cdn.pixabay.com/photo/2013/11/09/20/22/clouds-208000_1280.jpg");
-  background-repeat: no-repeat;
-}*/
-
-html {
   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+/*.bkg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}*/
+
+.slide-1 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/typing.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-div {
-  position: relative;
-  border-radius: 12px;
+.slide-2{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/typewriter.jpeg');
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
 }
 
-header {
+.slide-3 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2016/11/29/05/34/new-york-1867569_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slide-4 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slide-5 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.6) 100%), url('./public/background.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.slide-6 {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2016/11/19/15/32/business-1839876_1280.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*header {
   text-align: center;
   color:#343232  ;
-}
+}*/
 
 p {
   font-size: 20px;
   margin-left: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .featurette-heading {
-  margin-left: 50px;
+  margin: 0 0 0 50px;
+  padding-top: 15px;
 }
 
 .project-image {
-  width: 75%;
-  height: 75%
+  width: 65%;
+  height: 65%
 }
-
-/*article {
-  margin: 40px 0 0 0;
-  background: white;
-  border-width: 1px;
-  border-radius: 12px;
-  position: center;
-  padding: 20px;
-  opacity: 0.9;
-}*/
 
 .divider {
     display: block;
@@ -122,7 +181,8 @@ p {
 .right {
   align-content: right;
   text-align: right;
-  margin-right: 10px;
+  background-color: black;
+  padding: 5px 15px 5px 5px;
 }
 
 .menu:hover {

@@ -9,7 +9,7 @@
   <span class="menu">/</span>
   <span class="menu menu-projects">PROJECTS </span>
   <span class="menu">/</span>
-  <span class="menu menu-contact">CONTACT </span>
+  <span class="menu menu-contact">CONTACT  </span>
   <!--need to fix this to be a real menu icon, not a div-->
 </div>
 <script>
@@ -43,34 +43,15 @@
 </head>
 
 <body>
-  <header>
-    <h1> Susanna Huang </h1>
-    <div class="mypic">
-      <img class="headshot" src="./public/headshot.png">
+  <div class="slide-2">
+    <div class="caption">
+      <h1> Susanna Huang </h1>
+      <h2> Software Engineer </h2>
     </div>
-    <h2> Software Engineer </h2>
-    <ul class="links">
-      <li>
-        <a href="https://github.com/susbuilding"><img class="icon" src="./public/github-logo-blue.png"></a>
-      </li>
-      <li>
-      <a href="mailto:dearsusannahuang@gmail.com"><img class="icon" src="./public/email-icon.png"></a>
-      </li>
-      <li>
-      <a href="https://thesuslifeblog.wordpress.com"><img class="icon" src="./public/wordpress-logo-blue.png"></a>
-      </li>
-      <li>
-      <a href="https://www.linkedin.com/in/hellosusanna"><img class="icon" src="./public/linkedin-icon.png"></a>
-      </li>
+  </div>
 
-    </ul>
-  </header>
-
-  <div
-    class="row featurette row1 about"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
+  <div class="row featurette row1 about slide-3">
+    <!--<div class="bkg">-->
       <div class="col-md-7 text">
         <h2 class="featurette-heading">
           Hi, I'm Susanna!
@@ -83,123 +64,75 @@
           After working on the business side of things, I rediscovered my true passion for creating things while learning to code online in my spare time. I recently graduated from The Grace Hopper Program at Fullstack Academy, an all women's coding web development immersive program, where I learned to work with lots of cool technologies.
           When I'm not coding, I am trying out new recipes, traveling, or doing yoga. I hope you enjoy my site! </br>
         </p>
+        <center><img class="headshot" src="./public/headshot.png"></center>
       </div>
   </div>
 
-  <span class="divider">
-  </span>
-
-  <div
-    class="row featurette row1 tech"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
-      <div class="col-md-7 text">
+  <div class="row featurette slide-4">
+      <div class="col-md-7 text tech">
         <h1 class="featurette-heading">
           Tech
-        </h2>
-      </div>
-  </div>
-
-  <div
-    class="row featurette"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
-      <div class="col-md-7 text">
+        </h1>
         <p class="lead">
           Node.js, Express, ReactJS, Postgres/Sequelize, HTML5, CSS3, Bootstrap. </br>
           </br>
+          <div
+            data-center-top="opacity:0;"
+            data-top-top="opacity:1;">
             <img class="medium-icon" src="http://glenneggleton.com/files/2016-02/nodejs-logo.png">
             <img class="medium-icon" src="https://camo.githubusercontent.com/647e291a5fd52d50e01deb82f9392c462df148a6/687474703a2f2f617070732e6f63746f636f6e73756c74696e672e636f6d2f696d616765732f6578707265737349636f6e2e706e67">
             <img class="medium-icon" src="https://www.shareicon.net/download/2016/07/10/119874_apps_512x512.png">
             <img class="medium-icon" src="http://docs.sequelizejs.com/en/v3/images/logo-small.png">
             <img class="medium-icon" src="https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png">
+          </div>
         </p>
       </div>
   </div>
 
-  <span class="divider">
-  </span>
-
-  <div
-    class="row featurette row1 projects"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
-      <div class="col-md-7 text">
-        <h1 class="featurette-heading">
-          Projects
-        </h2>
-      </div>
+  <div class="row featurette slide-1">
+    <div class="col-md-7 text projects">
+      <h1 class="featurette-heading">
+        Projects
+      </h1>
+      <h2 class="featurette-heading">Tech Talk: Natural Language Processing with node.js</h2>
+    <p class="lead">A presentation on using the npm module Natural for topics like inflectors, classifications with machine learning, and term frequency.</p>
+    <p class="text">Created using node.js and Natural.</p>
+  </div>
+  <div class="col-md-5 image">
+    <center>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nEPyGX-VXdw" frameborder="0" allowfullscreen></iframe>
+    </center>
+    </div>
   </div>
 
-  <div
-    class="row featurette"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
-      <div class="col-md-7 text">
-        <h2 class="featurette-heading">Sandcastle</h2>
+  <div class="row featurette slide-4">
+    <div class="col-md-7 text">
+      <h2 class="featurette-heading">Sandcastle</h2>
         <p class="lead">An in-browser playground where developers can write and visualize an entire application, as well as interact with their database and test out their routes.</p>
+        <p class="text">Created using ReactJS, React-Redux, Firebase, Firepad, Codemirror, Docker, Express, Node.js, Postgres, Sequelize, Axios, Material UI, HTML5, CSS3.</p>
       </div>
       <div class="col-md-5 image">
         <center>
           <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/MSsxBJNM90E" frameborder="0" allowfullscreen></iframe></br>-->
           <img class="featurette-image img-responsive project-image" src="./public/sandcastle.png" alt="Generic placeholder image">
         </center>
-        <p class="text">Created using ReactJS, React-Redux, Firebase, Firepad, Codemirror, Docker, Express, Node.js, Postgres, Sequelize, Axios, Material UI, HTML5, CSS3.</p>
-      </div>
+    </div>
   </div>
 
-  <span class="divider">
-  </span>
-
-  <div
-  class="row featurette"
-  id="third"
-  data-center-top="opacity:0;"
-  data-top-top="opacity:1;">
+  <div class="row featurette slide-1">
     <div class="col-md-7 text">
       <h2 class="featurette-heading">Steps</h2>
       <p class="lead">A step by step game designed for children to learn how to code.</p>
+      <p class="text">Created using ReactJS, React-Redux, HTML5, CSS3, and bamboo.</p>
     </div>
     <div class="col-md-5 image">
       <center>
         <img class="featurette-image img-responsive project-image" src="./public/steps.png" alt="Generic placeholder image">
       </center>
-      <p class="text">Created using ReactJS, React-Redux, HTML5, CSS3, and bamboo.</p>
     </div>
   </div>
 
-  <span class="divider">
-  </span>
-
-  <div
-  class="row featurette"
-  id="third"
-  data-center-top="opacity:0;"
-  data-top-top="opacity:1;">
-    <div class="col-md-7 text">
-      <h2 class="featurette-heading">Tech Talk: Natural Language Processing with node.js</h2>
-      <p class="lead">A presentation on using the npm module Natural for topics like inflectors, classifications with machine learning, and term frequency.</p>
-    </div>
-    <div class="col-md-5 image">
-      <center>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nEPyGX-VXdw" frameborder="0" allowfullscreen></iframe>
-      </center>
-      <p class="text">Created using node.js and Natural.</p>
-    </div>
-  </div>
-
-  <span class="divider">
-  </span>
-
-  <div
-    class="row featurette contact"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
+  <div class="row featurette contact slide-6">
       <div class="col-md-7 text">
         <h2 class="featurette-heading">Let's talk.</h2>
          <p class="lead">I'm currently available to contribute as a full-stack developer to a cool product and work with amazing people. Email me at DearSusannaHuang@gmail.com if you'd like to learn more about my work!</p>
@@ -207,6 +140,20 @@
           <center>
             <img class="featurette-image img-responsive headshot-medium" src="./public/background.jpeg">
           </center>
+          <ul class="links">
+            <li>
+              <a href="https://github.com/susbuilding"><img class="icon" src="./public/github-logo-blue.png"></a>
+            </li>
+            <li>
+            <a href="mailto:dearsusannahuang@gmail.com"><img class="icon" src="./public/email-icon.png"></a>
+            </li>
+            <li>
+            <a href="https://thesuslifeblog.wordpress.com"><img class="icon" src="./public/wordpress-logo-blue.png"></a>
+            </li>
+            <li>
+            <a href="https://www.linkedin.com/in/hellosusanna"><img class="icon" src="./public/linkedin-icon.png"></a>
+            </li>
+          </ul>
         </div>
       </div>
   </div>
@@ -220,6 +167,6 @@
   </script>
 </body>
 
-<footer>
-  <span></span>
-</footer>
+<!--<footer>
+  <span>Made by Susanna</span>
+</footer>-->
