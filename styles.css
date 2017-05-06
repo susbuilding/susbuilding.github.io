@@ -65,11 +65,6 @@ body {
 }
 
 /*html {
-  background: url("https://cdn.pixabay.com/photo/2013/11/09/20/22/clouds-208000_1280.jpg");
-  background-repeat: no-repeat;
-}*/
-
-/*html {
   background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -103,11 +98,6 @@ body {
 	height: 100vh;
 	width: 100%;
 }
-
-/*div {*/
-  /*position: relative;*/
-  /*border-radius: 12px;*/
-/*}*/
 
 header {
   text-align: center;
