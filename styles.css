@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: #00b7c7;
+  color: #FFA200;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
   margin: 0px;
@@ -39,6 +39,7 @@ h2 {
   height: 25%;
   width: 25%;
   border-radius: 50%;
+  margin: 20px 0 0 20px;
 }
 
 .headshot-medium {
@@ -101,7 +102,7 @@ body {
 }
 
 .slide-3 {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2016/11/29/05/34/new-york-1867569_1280.jpg');
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('https://cdn.pixabay.com/photo/2014/07/01/12/35/taxi-cab-381233_1280.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,15 +119,9 @@ body {
   height: 100vh;
 }
 
-/*header {
-  text-align: center;
-  color:#343232  ;
-}*/
-
 p {
   font-size: 20px;
-  margin-left: 50px;
-  margin-left: 50px;
+  margin: 20px 50px 20px 50px;
 }
 
 .featurette-heading {
@@ -137,14 +132,6 @@ p {
 .project-image {
   width: 75%;
   height: 75%
-}
-
-.divider {
-    display: block;
-    margin: 70px 0 70px 0;
-    width: 100px;
-    height: 2px;
-    background-color: #00b7c7;
 }
 
 .text {
@@ -163,5 +150,5 @@ p {
 }
 
 .menu:hover {
-  color: #00b7c7;
+  color: #FFA500;
 }

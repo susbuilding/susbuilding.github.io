@@ -14,7 +14,6 @@
 </div>
 <script>
   $(".menu-about").click(function() {
-    console.log('clicked')
     $('html,body').animate({
         scrollTop: $(".about").offset().top},
         'slow');
@@ -51,19 +50,13 @@
   </div>
 
   <div
-    class="row featurette row1 about slide-3"
-    id="third">
+    class="row featurette row1 about slide-3">
     <!--<div class="bkg">-->
       <div class="col-md-7 text">
         <h2 class="featurette-heading">
           Hi, I'm Susanna!
           <span class="text-muted">
             <!--can write stuff here-->
-            <div class="mypic"
-              data-center-top="opacity:0;"
-              data-top-top="opacity:1;">
-              <img class="headshot" src="./public/headshot.png">
-            </div>
           </span>
         </h2>
         <p class="lead">
@@ -71,13 +64,17 @@
           After working on the business side of things, I rediscovered my true passion for creating things while learning to code online in my spare time. I recently graduated from The Grace Hopper Program at Fullstack Academy, an all women's coding web development immersive program, where I learned to work with lots of cool technologies.
           When I'm not coding, I am trying out new recipes, traveling, or doing yoga. I hope you enjoy my site! </br>
         </p>
+        <div class="mypic"
+          data-center-top="opacity:0;"
+          data-top-top="opacity:1;">
+          <img class="headshot" src="./public/headshot.png">
         </div>
+      </div>
       <!--</div>-->
   </div>
 
   <div
-    class="row featurette slide-4"
-    id="third">
+    class="row featurette slide-4">
       <div
         class="col-md-7 text tech"
         data-center-top="opacity:0;"
@@ -86,7 +83,7 @@
           Tech
         </h1>
         <p class="lead">
-          Node.js, Express, ReactJS, Postgres/Sequelize, HTML5, CSS3, Bootstrap. </br>
+          JavaScript, ReactJS, Node.js, Express, PostgreSQL, Sequelize, React-Redux, HTML5, CSS3, Bootstrap. </br>
           </br>
             <img class="medium-icon" src="http://glenneggleton.com/files/2016-02/nodejs-logo.png">
             <img class="medium-icon" src="https://camo.githubusercontent.com/647e291a5fd52d50e01deb82f9392c462df148a6/687474703a2f2f617070732e6f63746f636f6e73756c74696e672e636f6d2f696d616765732f6578707265737349636f6e2e706e67">
@@ -98,8 +95,7 @@
   </div>
 
   <div
-    class="row featurette slide-1"
-    id="third">
+    class="row featurette slide-1">
       <div
         class="col-md-7 text projects"
         data-center-top="opacity:0;"
@@ -109,28 +105,28 @@
         </h1>
         <h2 class="featurette-heading">Sandcastle</h2>
         <p class="lead">An in-browser playground where developers can write and visualize an entire application, as well as interact with their database and test out their routes.</p>
+        <p class="text">Created using ReactJS, React-Redux, Firebase, Firepad, Codemirror, Docker, Express, Node.js, Postgres, Sequelize, Axios, Material UI, HTML5, CSS3.</p>
       </div>
       <div class="col-md-5 image">
         <center>
           <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/MSsxBJNM90E" frameborder="0" allowfullscreen></iframe></br>-->
-          <img class="featurette-image img-responsive project-image" src="./public/sandcastle.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive project-image" src="./public/sandcastle.png">
         </center>
-        <p class="text">Created using ReactJS, React-Redux, Firebase, Firepad, Codemirror, Docker, Express, Node.js, Postgres, Sequelize, Axios, Material UI, HTML5, CSS3.</p>
       </div>
   </div>
 
   <div
-  class="row featurette slide-1"
+  class="row featurette slide-2"
   id="third">
     <div class="col-md-7 text">
       <h2 class="featurette-heading">Steps</h2>
       <p class="lead">A step by step game designed for children to learn how to code.</p>
+      <p class="text">Created using ReactJS, React-Redux, HTML5, CSS3, and bamboo.</p>
     </div>
     <div class="col-md-5 image">
       <center>
-        <img class="featurette-image img-responsive project-image" src="./public/steps.png" alt="Generic placeholder image">
+        <img class="featurette-image img-responsive project-image" src="./public/steps.png">
       </center>
-      <p class="text">Created using ReactJS, React-Redux, HTML5, CSS3, and bamboo.</p>
     </div>
   </div>
 
@@ -140,24 +136,24 @@
     <div class="col-md-7 text">
       <h2 class="featurette-heading">Tech Talk: Natural Language Processing with node.js</h2>
       <p class="lead">A presentation on using the npm module Natural for topics like inflectors, classifications with machine learning, and term frequency.</p>
+      <p class="text">Created using node.js and Natural.</p>
     </div>
     <div class="col-md-5 image">
       <center>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/nEPyGX-VXdw" frameborder="0" allowfullscreen></iframe>
       </center>
-      <p class="text">Created using node.js and Natural.</p>
     </div>
   </div>
 
   <div
-    class="row featurette contact slide-2"
-    id="third"
-    data-center-top="opacity:0;"
-    data-top-top="opacity:1;">
+    class="row featurette contact slide-2">
       <div class="col-md-7 text">
         <h2 class="featurette-heading">Let's talk.</h2>
          <p class="lead">I'm currently available to contribute as a full-stack developer to a cool product and work with amazing people. Email me at DearSusannaHuang@gmail.com if you'd like to learn more about my work!</p>
-        <div class="col-md-5 image">
+        <div
+          class="col-md-5 image"
+          data-center-top="opacity:0;"
+          data-top-top="opacity:1;">
           <center>
             <img class="featurette-image img-responsive headshot-medium" src="./public/background.jpeg">
           </center>
@@ -187,7 +183,3 @@
     }
   </script>
 </body>
-
-<footer>
-  <span></span>
-</footer>
