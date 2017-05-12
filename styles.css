@@ -179,3 +179,8 @@ p {
 .menu:hover {
   color: #00b7c7;
 }
+
+@media (min-width: 480px) {
+    background-image: url('./public/laptop.jpeg');
+    background-size: cover;
+}
