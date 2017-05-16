@@ -180,7 +180,13 @@ p {
   color: #00b7c7;
 }
 
-@media (min-width: 480px) {
+/*@media (min-width: 480px) {
     background-image: url('./public/laptop.jpeg');
     background-size: cover;
+}*/
+
+@media screen and (max-device-width: 860px){
+  html {
+    background-color: black;
+  }
 }
