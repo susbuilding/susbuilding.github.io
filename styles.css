@@ -186,7 +186,17 @@ p {
 }*/
 
 @media screen and (max-device-width: 860px){
-  html {
-    background-color: black;
+
+  p {
+    font-size: 15px;
+  }
+
+  .video {
+    height: 0;
+  }
+
+  .medium-icon {
+    height: 90px;
+    width: 90px;
   }
 }
