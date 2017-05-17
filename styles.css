@@ -205,20 +205,11 @@ p {
     width: 90px;
   }
 
-  .slide-1{
-    background-size: contain;
-  }
-  .slide-2{
-    background-size: contain;
-  }
-  .slide-3{
-    background-size: contain;
-  }
-  .slide-4{
-    background-size: contain;
-  }
-  .slide-5{
-    background-size: contain;
-  }
+ html {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg');
+  width: auto;
+  height: 100%;
+  background-size: cover;
+ }
 
 }
