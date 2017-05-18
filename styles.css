@@ -205,11 +205,4 @@ p {
     width: 90px;
   }
 
- html {
-  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('./public/ocean.jpeg');
-  width: auto;
-  height: 100%;
-  background-size: cover;
- }
-
 }
