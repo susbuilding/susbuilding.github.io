@@ -185,6 +185,26 @@ p {
   color: #00b7c7;
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #00b7c7;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: #00b7c7;
+}
+
 /*@media (min-width: 480px) {
     background-image: url('./public/laptop.jpeg');
     background-size: cover;
